@@ -9,6 +9,26 @@
 // create variables to count numberOfEachItem
 // create variable to count numberOfTypes
 
+///// EXAMPLE CODE for checking which page the user is on/which file is running
+const path = window.location.pathname;
+
+if (path.endsWith("index.html")) {
+  document.getElementById("home-title").textContent += " - Home Page";
+} else if (path.endsWith("about.html")) {
+  document.getElementById("about-title").textContent += " - About Page";
+} else if (path.endsWith("contact.html")) {
+  document.getElementById("contact-title").textContent += " - Contact Page";
+}
+
+// Example code for inserting popup file
+fetch('/popup.html')
+  .then(res => res.text())
+  .then(html => {
+    document.body.insertAdjacentHTML('beforeend', html);
+  });
+
+
+
 
 fetch('items.json')
 .then(response => response.json())
