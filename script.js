@@ -13,19 +13,31 @@
 const path = window.location.pathname;
 
 if (path.endsWith("index.html")) {
-  document.getElementById("home-title").textContent += " - Home Page";
-} else if (path.endsWith("about.html")) {
-  document.getElementById("about-title").textContent += " - About Page";
-} else if (path.endsWith("contact.html")) {
-  document.getElementById("contact-title").textContent += " - Contact Page";
+  // document.getElementById("home-title").textContent += " - Home Page";
+
+} else if (path.endsWith("store.html")) {
+  // document.getElementById("about-title").textContent += " - About Page";
+
+} else if (path.endsWith("team.html")) {
+  // document.getElementById("contact-title").textContent += " - Contact Page";
+
 }
 
 // Example code for inserting popup file
-fetch('/popup.html')
-  .then(res => res.text())
+fetch('popup.html')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok: ' + response.status);
+    }
+    return response.text();
+  })
   .then(html => {
     document.body.insertAdjacentHTML('beforeend', html);
+  })
+  .catch(error => {
+    console.error('Error loading popup:', error);
   });
+ // WHEN THIS CODE IS ON, annnnd also the "extra" html, aka the hardcoded HTML, exists in the index.html file, then THE POPUP SHOWS UP EVERYWHERE, WHEN THE ABOVE FETCH IS COMMENTED OUT OR the hardcoded popup in index.html is commented out -> THEN THE POPUP ONLY WORKS ON INDEX.HTML
 
 
 
@@ -44,10 +56,10 @@ const popup = document.querySelector('#popup') /// only applies to elements on i
 const xItemBtnsArray = Array.from(document.querySelectorAll('#xItemBtn'))
 xItemBtnsArray.forEach(btn => btn.style = "display: none")
 
-cartCountIndicator.innerText = "0"
+// cartCountIndicator.innerText = "0"
 
-if (cartCountIndicator.innerText == "0") {
- popup.style.display = "none"   
-}
+// if (cartCountIndicator.innerText == "0") {
+//  popup.style.display = "none"   
+// }
 
 
