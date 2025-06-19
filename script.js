@@ -1,18 +1,58 @@
+let popupHTML;
 
-  //////// cannot be serious. This is working now when it didn't before!!!!
-fetch('popup.html')
+fetch('/popup.html')
   .then(response => {
     if (response.ok) {
-      return response.text(); // Get the response as text (HTML string)
+      return response.text(); 
     }
     throw response;
   })
   .then(html => {
-    document.body.insertAdjacentHTML('beforeend', html);
+    popupHTML = html
+    console.log(html)
+    document.body.insertAdjacentHTML('beforeend', popupHTML);
+
+let shoppingCartIcon = document.querySelector('#shoppingCartIcon');
+let cartCountIndicator = document.querySelector('#cartCountIndicator');
+let popupContent = document.querySelector('#popupContent') ;
+let cartIconParentDiv = document.querySelector('#cartIcon')
+
+shoppingCartIcon.addEventListener("click", () => {
+  popupContent.classList.toggle('invisible')
+})
+
+// cartCountIndicator.innerText = "0"
+// if (cartCountIndicator.innerText == "0") {
+//   alert("cartCountIndicator.innerText = '0'")
+//  popupContent.style.display = "none"   
+// }
+
+
   })
   .catch(error => {
     console.error('Error loading external content:', error);
   });
+  
+
+
+// fetch('./popup.html')
+// .then(response => {
+//     if (response.ok) {
+// cartIcon
+// cartCountIndicator = document.querySelector('.cartCountIndicator')
+// popup = document.querySelector('#popupContent')     
+
+// cartIcon.addEventListener("click", () => {
+//   popup.classList.toggle(invisible)
+// })
+
+//     }
+//     throw response;
+//   }
+
+// )
+
+
 
     // get items, individually
 // get the cart icon & cart icon counterImage
@@ -41,26 +81,25 @@ fetch('popup.html')
 // }
 
 
-let itemsData
-fetch('items.json')
-.then(response => response.json())
-.then(data => {
-    itemsData = data; /// stores data array of object in "itemsData"
-})
-.catch(error => console.error('Error fetching JSON', error))
+// let itemsData
+// fetch('./items.json')
+// .then(response => response.json()
+// )
+// .then(data => {
+//     itemsData = data; /// stores data array of object in "itemsData"
+//     console.log(data)
+// })
+// .catch(error => console.error('Error fetching JSON', error))
 
-const cartIcon = document.querySelector('.shoppingCartIcon')/// only works on index.html
-const cartCountIndicator = document.querySelector('.cartCountIndicator')//// only works on homepage -aka- index.html
-const popup = document.querySelector('#popupContent') /// only applies to elements on index.html, regardless of ID
 
-const xItemBtnsArray = Array.from(document.querySelectorAll('#xItemBtn')) //this id not added to any elements yet
-xItemBtnsArray.forEach(btn => btn.style = "display: none")
+// const xItemBtnsArray = Array.from(document.querySelectorAll('#xItemBtn')) //this id not added to any elements yet
+// xItemBtnsArray.forEach(btn => btn.style = "display: none")
 
-cartCountIndicator.innerText = "0"
+// cartCountIndicator.innerText = "0"
 
-if (cartCountIndicator.innerText == "0") {
-  alert("cartCountIndicator.innerText = '0'")
- popup.style.display = "none"   
-}
+// if (cartCountIndicator.innerText == "0") {
+//   alert("cartCountIndicator.innerText = '0'")
+//  popup.style.display = "none"   
+// }
 
 

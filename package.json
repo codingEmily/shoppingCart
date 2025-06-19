@@ -1,7 +1,6 @@
 {
   "name": "shoppingcartproject_independent_javascript_dom_manipulation",
   "version": "1.0.0",
-  "main": "script.js",
   "scripts": {
     "start": "parcel index.html store.html team.html popup.html",
     "build": "parcel build index.html store.html team.html popup.html"
@@ -11,7 +10,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel": "^2.15.2"
   },
   "dependencies": {
     "pop": "^0.0.33"
