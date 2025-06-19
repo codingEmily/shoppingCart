@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
-    "start": "parcel index.html store.html team.html",
-    "build": "parcel build index.html store.html team.html"
-
+    "start": "parcel index.html store.html team.html popup.html",
+    "build": "parcel build index.html store.html team.html popup.html"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +12,8 @@
   "description": "",
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "pop": "^0.0.33"
   }
 }
