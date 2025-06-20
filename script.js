@@ -1,5 +1,28 @@
 let popupHTML;
 
+// import data from './items.json'
+// // // import importedPopup from './popup.html'
+
+// const container = document.querySelector('.itemsContainer')
+// const template = document.querySelector('.strItemTemplate')
+
+// data.forEach(item => {
+//   const clone = template.content.cloneNode(true); // add "content." after "template." ?
+
+//   const img = clone.querySelector('.imgClass')
+//   img.src = `https://dummyimage.com/420x260/${item.imageColor}/${item.imageColor}`
+
+//   clone.querySelector('.colorCategory').innerText = item.category
+//   clone.querySelector('.colorLabel').innerText = item.name
+//   clone.querySelector('.colorPriceAsCents').innerText = item.priceCents
+//   // clone.querySelector('.colorBtn').innerText = `Buy ${item.name}`
+
+//   container.appendChild(clone)
+
+// })
+
+
+////////////////// ///////////////////                   ///////////////
 fetch('/popup.html')
   .then(response => {
     if (response.ok) {
@@ -9,50 +32,28 @@ fetch('/popup.html')
   })
   .then(html => {
     popupHTML = html
-    console.log(html)
     document.body.insertAdjacentHTML('beforeend', popupHTML);
 
-let shoppingCartIcon = document.querySelector('#shoppingCartIcon');
+let cartIcon = document.querySelector('#shoppingCartIcon');
 let cartCountIndicator = document.querySelector('#cartCountIndicator');
 let popupContent = document.querySelector('#popupContent') ;
-let cartIconParentDiv = document.querySelector('#cartIcon')
-
-shoppingCartIcon.addEventListener("click", () => {
+let entireBtnAndPopup = document.querySelector('#entireBtnAndPopup')
+ cartIcon.addEventListener("click", () => {
   popupContent.classList.toggle('invisible')
 })
 
 // cartCountIndicator.innerText = "0"
-// if (cartCountIndicator.innerText == "0") {
-//   alert("cartCountIndicator.innerText = '0'")
-//  popupContent.style.display = "none"   
-// }
+if (cartCountIndicator.innerText == "0") {
+  // alert("cartCountIndicator.innerText = '0'")
+ entireBtnAndPopup.style.display = "none"   
+}
 
 
-  })
+  }) // this is WHERE IT SHOULD BE!! The above code is appropriately all w/in one .then(promise)
   .catch(error => {
     console.error('Error loading external content:', error);
   });
-  
-
-
-// fetch('./popup.html')
-// .then(response => {
-//     if (response.ok) {
-// cartIcon
-// cartCountIndicator = document.querySelector('.cartCountIndicator')
-// popup = document.querySelector('#popupContent')     
-
-// cartIcon.addEventListener("click", () => {
-//   popup.classList.toggle(invisible)
-// })
-
-//     }
-//     throw response;
-//   }
-
-// )
-
-
+  ///////////////////////////////                      ///////////////
 
     // get items, individually
 // get the cart icon & cart icon counterImage
@@ -79,6 +80,7 @@ shoppingCartIcon.addEventListener("click", () => {
 //   // document.getElementById("contact-title").textContent += " - Contact Page";
 
 // }
+
 
 
 // let itemsData
