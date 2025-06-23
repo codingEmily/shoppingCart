@@ -1,26 +1,16 @@
-let popupHTML;
+import items from './items.json';
 
-// import data from './items.json'
-// // // import importedPopup from './popup.html'
+const template = document.querySelector('.strItemTemplate');
+const container = document.querySelector('.itemsContainer');
 
-// const container = document.querySelector('.itemsContainer')
-// const template = document.querySelector('.strItemTemplate')
-
-// data.forEach(item => {
-//   const clone = template.content.cloneNode(true); // add "content." after "template." ?
-
-//   const img = clone.querySelector('.imgClass')
-//   img.src = `https://dummyimage.com/420x260/${item.imageColor}/${item.imageColor}`
-
-//   clone.querySelector('.colorCategory').innerText = item.category
-//   clone.querySelector('.colorLabel').innerText = item.name
-//   clone.querySelector('.colorPriceAsCents').innerText = item.priceCents
-//   // clone.querySelector('.colorBtn').innerText = `Buy ${item.name}`
-
-//   container.appendChild(clone)
-
-// })
-
+items.forEach(item => {
+  const clone = template.content.cloneNode(true);
+  clone.querySelector('.imgClass').src = `https://dummyimage.com/420x260/${item.imageColor}/${item.imageColor}`;
+  clone.querySelector('.colorCategory').innerText = item.category;
+  clone.querySelector('.colorLabel').innerText = item.name;
+  clone.querySelector('.colorPriceAsCents').innerText = `$${(item.priceCents / 100).toFixed(2)}`;
+  container.appendChild(clone);
+});
 
 ////////////////// ///////////////////                   ///////////////
 fetch('/popup.html')
@@ -31,8 +21,8 @@ fetch('/popup.html')
     throw response;
   })
   .then(html => {
-    popupHTML = html
-    document.body.insertAdjacentHTML('beforeend', popupHTML);
+    // popupHTML = html
+    document.body.insertAdjacentHTML('beforeend', html);
 
 let cartIcon = document.querySelector('#shoppingCartIcon');
 let cartCountIndicator = document.querySelector('#cartCountIndicator');
@@ -53,6 +43,87 @@ if (cartCountIndicator.innerText == "0") {
   .catch(error => {
     console.error('Error loading external content:', error);
   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   ///////////////////////////////                      ///////////////
 
     // get items, individually

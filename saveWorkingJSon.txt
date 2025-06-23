@@ -1,0 +1,17 @@
+import items from './items.json';
+
+const template = document.querySelector('.strItemTemplate');
+const container = document.querySelector('.itemsContainer');
+
+items.forEach(item => {
+  const clone = template.content.cloneNode(true);
+  clone.querySelector('.imgClass').src = `https://dummyimage.com/420x260/${item.imageColor}/${item.imageColor}`;
+  clone.querySelector('.colorCategory').innerText = item.category;
+  clone.querySelector('.colorLabel').innerText = item.name;
+  clone.querySelector('.colorPriceAsCents').innerText = `$${(item.priceCents / 100).toFixed(2)}`;
+  container.appendChild(clone);
+});
+
+// import data from './items.json'
+import popupHTML from './popup.html'
+document.body.insertAdjacentHTML('beforeend', popupHTML);
