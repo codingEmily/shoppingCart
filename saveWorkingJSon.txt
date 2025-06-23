@@ -1,3 +1,15 @@
+The below code is from June 23, 2025. This was committed with this level of functionality: 
+"JSON works great, and the popup works great ONLY ON store.html... unless the JSON related code is commented out, then the popup works great everywhere. As for the parcel/live server issues- apparently I shouldn't be trying to write code that can deploy on multiple platforms at once"
+
+*** I will be trying to "fix" the popup by translating it to import instead of fetch, since I'm not trying to work w live server anymore
+
+
+
+
+
+
+
+//////////////////////////////
 import items from './items.json';
 
 const template = document.querySelector('.strItemTemplate');
@@ -12,6 +24,35 @@ items.forEach(item => {
   container.appendChild(clone);
 });
 
-// import data from './items.json'
-import popupHTML from './popup.html'
-document.body.insertAdjacentHTML('beforeend', popupHTML);
+////////////////// ///////////////////                   ///////////////
+fetch('/popup.html')
+  .then(response => {
+    if (response.ok) {
+      return response.text(); 
+    }
+    throw response;
+  })
+  .then(html => {
+    // popupHTML = html
+    document.body.insertAdjacentHTML('beforeend', html);
+
+let cartIcon = document.querySelector('#shoppingCartIcon');
+let cartCountIndicator = document.querySelector('#cartCountIndicator');
+let popupContent = document.querySelector('#popupContent') ;
+let entireBtnAndPopup = document.querySelector('#entireBtnAndPopup')
+ cartIcon.addEventListener("click", () => {
+  popupContent.classList.toggle('invisible')
+})
+
+// cartCountIndicator.innerText = "0"
+if (cartCountIndicator.innerText == "0") {
+  // alert("cartCountIndicator.innerText = '0'")
+ entireBtnAndPopup.style.display = "none"   
+}
+
+
+  }) // this is WHERE IT SHOULD BE!! The above code is appropriately all w/in one .then(promise)
+  .catch(error => {
+    console.error('Error loading external content:', error);
+  });
+

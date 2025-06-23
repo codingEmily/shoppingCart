@@ -1,19 +1,23 @@
 import items from './items.json';
+import popupHTML from './popup.html'
 
-const template = document.querySelector('.strItemTemplate');
-const container = document.querySelector('.itemsContainer');
+const strItemTemplate = document.querySelector('.strItemTemplate');
+const containerOfStrItems = document.querySelector('.itemsContainer');
 
+const path = window.location.pathname;
+if (path.endsWith("store.html")) {
 items.forEach(item => {
-  const clone = template.content.cloneNode(true);
+  const clone = strItemTemplate.content.cloneNode(true);
   clone.querySelector('.imgClass').src = `https://dummyimage.com/420x260/${item.imageColor}/${item.imageColor}`;
   clone.querySelector('.colorCategory').innerText = item.category;
   clone.querySelector('.colorLabel').innerText = item.name;
   clone.querySelector('.colorPriceAsCents').innerText = `$${(item.priceCents / 100).toFixed(2)}`;
-  container.appendChild(clone);
+  containerOfStrItems.appendChild(clone);
 });
+}
 
 ////////////////// ///////////////////                   ///////////////
-fetch('/popup.html')
+fetch('/popup.html?version=' + Date.now()) // ⬅ you had a typo here, was `/version`
   .then(response => {
     if (response.ok) {
       return response.text(); 
@@ -21,25 +25,23 @@ fetch('/popup.html')
     throw response;
   })
   .then(html => {
-    // popupHTML = html
     document.body.insertAdjacentHTML('beforeend', html);
 
-let cartIcon = document.querySelector('#shoppingCartIcon');
-let cartCountIndicator = document.querySelector('#cartCountIndicator');
-let popupContent = document.querySelector('#popupContent') ;
-let entireBtnAndPopup = document.querySelector('#entireBtnAndPopup')
- cartIcon.addEventListener("click", () => {
-  popupContent.classList.toggle('invisible')
-})
+    const cartIcon = document.querySelector('#shoppingCartIcon');
+    const cartCountIndicator = document.querySelector('#cartCountIndicator');
+    const popupContent = document.querySelector('#popupContent');
+    const entireBtnAndPopup = document.querySelector('#entireBtnAndPopup');
 
-// cartCountIndicator.innerText = "0"
-if (cartCountIndicator.innerText == "0") {
-  // alert("cartCountIndicator.innerText = '0'")
- entireBtnAndPopup.style.display = "none"   
-}
+    if (cartIcon && popupContent) {
+      cartIcon.addEventListener("click", () => {
+        popupContent.classList.toggle('invisible');
+      });
+    }
 
-
-  }) // this is WHERE IT SHOULD BE!! The above code is appropriately all w/in one .then(promise)
+    if (cartCountIndicator && entireBtnAndPopup && cartCountIndicator.innerText === "0") {
+      entireBtnAndPopup.style.display = "none";
+    }
+  })
   .catch(error => {
     console.error('Error loading external content:', error);
   });
@@ -120,10 +122,6 @@ if (cartCountIndicator.innerText == "0") {
 
 
 
-
-
-
-  
   ///////////////////////////////                      ///////////////
 
     // get items, individually
