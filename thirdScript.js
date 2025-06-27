@@ -49,8 +49,10 @@ fetch('/popup.html?version=' + Date.now())
         popupContent.classList.toggle('invisible');
       });
     }
-    if (cartCountIndicator && entireBtnAndPopup && cartCountIndicator.innerText === "0") {
-      // entireBtnAndPopup.style.display = "none";  
+    if (cartCountIndicator && entireBtnAndPopup && (totalCartCountForCartIndicator == 0)) {
+      entireBtnAndPopup.style.display = "none";  
+    } else if (cartCountIndicator && entireBtnAndPopup && (totalCartCountForCartIndicator >= 1)) {
+      entireBtnAndPopup.style.display = "block"
     }
 
   })
@@ -68,7 +70,6 @@ if (path.endsWith("store.html")) {
           if (item.countInCart === 0) { // add item before counting up
           //  item.countInCart++;
           addNewItem(item)
-          totalCartCountForCartIndicator++;
           cartCountIndicator.innerText = totalCartCountForCartIndicator
           } else if (item.countInCart >= 1) {
             // item.countInCart++
@@ -87,7 +88,17 @@ if (path.endsWith("store.html")) {
 
 
 function addNewItem(item) {
-  item.countInCart++;
+item.countInCart++;
+totalCartCountForCartIndicator++;
+
+  if (cartCountIndicator && entireBtnAndPopup && (totalCartCountForCartIndicator == 0)) {
+      entireBtnAndPopup.style.display = "none";  
+    } else if (cartCountIndicator && entireBtnAndPopup && (totalCartCountForCartIndicator >= 1)) {
+      entireBtnAndPopup.style.display = "block"
+    }
+
+
+  
   let popupEachItemTemplate = document.querySelector('.popupEachItemTemplate')
   let popupDisplayContainer = document.querySelector('.displayContainer')
   
