@@ -1,15 +1,68 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+NEWEST TO OLDEST CODE, TOP TO bottom
+As of June 23, 2025, this code works well, the popup is static, but applies to all pages. There's better error handling for json and insertedPopupHTML
+
+/////////////
+import items from './items.json';
+import popupHTML from './popup.html'
+
+const strItemTemplate = document.querySelector('.strItemTemplate');
+const containerOfStrItems = document.querySelector('.itemsContainer');
+
+const path = window.location.pathname;
+if (path.endsWith("store.html")) {
+items.forEach(item => {
+  const clone = strItemTemplate.content.cloneNode(true);
+  clone.querySelector('.imgClass').src = `https://dummyimage.com/420x260/${item.imageColor}/${item.imageColor}`;
+  clone.querySelector('.colorCategory').innerText = item.category;
+  clone.querySelector('.colorLabel').innerText = item.name;
+  clone.querySelector('.colorPriceAsCents').innerText = `$${(item.priceCents / 100).toFixed(2)}`;
+  containerOfStrItems.appendChild(clone);
+});
+}
+
+//////////////
+fetch('/popup.html?version=' + Date.now()) // ⬅ you had a typo here, was `/version`
+  .then(response => {
+    if (response.ok) {
+      return response.text(); 
+    }
+    throw response;
+  })
+  .then(html => {
+    document.body.insertAdjacentHTML('beforeend', html);
+
+    const cartIcon = document.querySelector('#shoppingCartIcon');
+    const cartCountIndicator = document.querySelector('#cartCountIndicator');
+    const popupContent = document.querySelector('#popupContent');
+    const entireBtnAndPopup = document.querySelector('#entireBtnAndPopup');
+
+    if (cartIcon && popupContent) {
+      cartIcon.addEventListener("click", () => {
+        popupContent.classList.toggle('invisible');
+      });
+    }
+
+    if (cartCountIndicator && entireBtnAndPopup && cartCountIndicator.innerText === "0") {
+      entireBtnAndPopup.style.display = "none";
+    }
+  })
+  .catch(error => {
+    console.error('Error loading external content:', error);
+  });
+////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
 The below code is from June 23, 2025. This was committed with this level of functionality: 
 "JSON works great, and the popup works great ONLY ON store.html... unless the JSON related code is commented out, then the popup works great everywhere. As for the parcel/live server issues- apparently I shouldn't be trying to write code that can deploy on multiple platforms at once"
 
 *** I will be trying to "fix" the popup by translating it to import instead of fetch, since I'm not trying to work w live server anymore
 
 
-
-
-
-
-
-//////////////////////////////
+/////////////////
 import items from './items.json';
 
 const template = document.querySelector('.strItemTemplate');
@@ -24,7 +77,7 @@ items.forEach(item => {
   container.appendChild(clone);
 });
 
-////////////////// ///////////////////                   ///////////////
+//////////////////
 fetch('/popup.html')
   .then(response => {
     if (response.ok) {

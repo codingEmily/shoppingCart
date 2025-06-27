@@ -1,4 +1,4 @@
-8802
+8809
 148C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\caniuse-lite\data\features\css-deviceadaptation.js133946566892716954 0
 176C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\packager-css\node_modules\@parcel\utils\test\input\sourcemap\inline.js133948123301590513 0
 120C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\ordered-binary\LICENSE133948123096353154 0
@@ -23,7 +23,7 @@
 115C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@msgpackr-extract133948307957416745 1
 173C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\node-resolver-core\node_modules\node-addon-api\package-support.json133948123229381335 0
 145C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\core\node_modules\json5\lib\register.js133948123196484377 0
-89C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist133951703379965172 1
+89C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist133955310997512737 1
 156C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-babel\node_modules\@parcel\logger\test133948123175042271 1
 118C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\type-fest\index.d.ts133948123223040292 0
 174C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-posthtml\node_modules\@parcel\utils\test\urlJoin.test.js133948123340244447 0
@@ -51,9 +51,14 @@
 169C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\reporter-cli\node_modules\@parcel\utils\test\objectHash.test.js133948123305737342 0
 129C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\caniuse-lite\data\regions\EG.js133946566923959135 0
 159C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-babel\node_modules\json5\lib\stringify.js133948123202040059 0
-95C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\index.html133951693646238326 0
+95C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\index.html133955112976697276 0
 134C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\caniuse-lite\data\features\tls1-3.js133946566972816111 0
 95C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\items.json133949025272756019 0
+118C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\ordered-binary\tests133948123188764227 1
+158C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-posthtml\node_modules\@parcel\logger\lib133948123118894714 1
+97C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\newScript.js133955111720680725 0
+186C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\package-manager\node_modules\@parcel\workers\test\integration\workerfarm\ping.js133948123249559725 0
+147C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\runtime-js\node_modules\@parcel\utils\lib133948123345797717 1
 97C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules133948307957792227 1
 146C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\caniuse-lite\data\features\html-media-capture.js133946566942325477 0
 163C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\optimizer-image\node_modules\@parcel\workers\lib\child.js133948123190380496 0
@@ -61,7 +66,7 @@
 150C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@swc\helpers\_\_assert_this_initialized\package.json133948123373128199 0
 147C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\ordered-binary\.nyc_output\processinfo\index.json133948123202756306 0
 128C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\type-fest\ts41\kebab-case.d.ts133948123230901161 0
-95C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\popup.html133951655138464105 0
+95C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\popup.html133955304463065664 0
 140C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\caniuse-lite\data\features\offline-apps.js133946566960851919 0
 174C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\build-test.js133948123134640900 0
 154C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\node-resolver-core\node_modules\semver\README.md133948123298403834 0
@@ -100,7 +105,7 @@
 146C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\optimizer-css\node_modules\@parcel\utils133948123341941673 1
 177C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-image\node_modules\@parcel\utils\src\dependency-location.js133948123230131458 0
 156C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\packager-css\node_modules\supports-color\readme.md133948123180163501 0
-104C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\saveWorkingJSon.txt133951653723879022 0
+104C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\saveWorkingJSon.txt133951707505277356 0
 162C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-posthtml\node_modules\color-convert\index.js133948123167119760 0
 173C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\optimizer-svg\node_modules\@parcel\utils\src\generateCertificate.js133948123238687932 0
 161C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\parcel\node_modules\@parcel\watcher\src\linux\InotifyBackend.cc133948123206751863 0
@@ -113,9 +118,9 @@
 170C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\README.md133948123196162310 0
 125C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\caniuse-lite\data\agents.js133946566742549827 0
 164C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\cache\node_modules\@parcel\watcher\src\wasm\WasmBackend.hh133948123264274114 0
-94C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\script.js133951703389565903 0
+94C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\script.js133953441597318575 0
 151C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\parcel\node_modules\@parcel\workers\src\WorkerFarm.js133948123297454952 0
-95C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\store.html133951660201990183 0
+95C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\store.html133955112839260790 0
 184C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-react-refresh-wrap\node_modules\@parcel\utils\src\shared-buffer.js133948123320304011 0
 120C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\msgpackr\dist\node.cjs133948123186234899 0
 154C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\packager-html\node_modules\has-flag\package.json133948123099665755 0
@@ -131,7 +136,15 @@
 128C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\detect-libc\bin\detect-libc.js133948123183253210 0
 157C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\parcel\node_modules\@parcel\utils\test\PromiseQueue.test.js133948123313404431 0
 127C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@swc\helpers\cjs\_dispose.cjs133948123282802202 0
-94C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\team.html133951693573207798 0
+94C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\team.html133955112914461059 0
+162C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-babel\node_modules\@parcel\utils\src\path.js133948123308658387 0
+153C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\node-resolver-core\node_modules\.bin\semver.ps1133948123413219619 0
+132C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\type-fest\source\set-required.d.ts133948123260384344 0
+162C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-js\node_modules\@parcel\workers\lib\types.js133948123270692821 0
+99C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\thirdScript.js133955311222414197 0
+124C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\utility-types\CHANGELOG.md133948123206782506 0
+165C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\optimizer-css\node_modules\@parcel\utils\src\http-server.js133948123250204136 0
+143C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\caniuse-lite\data\features\matchesselector.js133946566954259739 0
 167C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-babel\node_modules\semver\internal\identifiers.js133948123222944840 0
 144C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-postcss\node_modules\chalk133948123192122996 1
 172C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\node-resolver-core\node_modules\@parcel\workers\src\core-worker.js133948123216643155 0
@@ -474,13 +487,6 @@
 113C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\lmdb\caching.js133948123360525039 0
 162C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\packager-js\node_modules\@parcel\utils\src\getRootDir.js133948123246802044 0
 127C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\weak-lru-cache\dist\index.cjs133948123101131051 0
-162C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-babel\node_modules\@parcel\utils\src\path.js133948123308658387 0
-153C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\node-resolver-core\node_modules\.bin\semver.ps1133948123413219619 0
-132C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\type-fest\source\set-required.d.ts133948123260384344 0
-162C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-js\node_modules\@parcel\workers\lib\types.js133948123270692821 0
-124C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\utility-types\CHANGELOG.md133948123206782506 0
-165C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\optimizer-css\node_modules\@parcel\utils\src\http-server.js133948123250204136 0
-143C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\caniuse-lite\data\features\matchesselector.js133946566954259739 0
 152C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\codeframe\node_modules\supports-color\index.js133948123134610880 0
 151C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\caniuse-lite\data\features\kerning-pairs-ligatures.js133946566950138318 0
 171C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\optimizer-swc\node_modules\@parcel\utils\src\isDirectoryInside.js133948123303660691 0
@@ -553,10 +559,10 @@
 137C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\caniuse-lite\data\features\flow-root.js133946566930111496 0
 148C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\parcel\node_modules\@parcel\watcher\src\Backend.hh133948123243640255 0
 142C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\parcel\node_modules\node-addon-api\README.md133948123238263148 0
-160C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\parcel\node_modules\@parcel\utils\test\input\config\empty.toml133948123358571984 0
 162C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-js\node_modules\semver\ranges\min-version.js133948123249363719 0
 160C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-posthtml\node_modules\color-name\README.md133948123161638517 0
 162C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\parcel\node_modules\@parcel\utils\test\input\sourcemap\inline.js133948123301791959 0
+160C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\parcel\node_modules\@parcel\utils\test\input\config\empty.toml133948123358571984 0
 157C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_dump.c133948123278906333 0
 181C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-postcss\node_modules\@parcel\utils\test\input\config\config.cjs133948123158158796 0
 186C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\optimizer-html\node_modules\@parcel\utils\test\input\sourcemap\referenced-min.js133948123313923256 0
@@ -617,10 +623,10 @@
 133C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\update-browserslist-db\package.json133946566664198963 0
 132C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\namer-default\package.json133948123176889438 0
 150C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\packager-js\node_modules\@parcel\logger\test133948123175153522 1
+130C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\update-browserslist-db\README.md133946566678292753 0
+139C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@swc\helpers\src\_array_without_holes.mjs133948123392171532 0
 156C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\runtime-js\node_modules\color-convert\CHANGELOG.md133948123119302249 0
 157C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\parcel\node_modules\@parcel\utils\src\relativeBundlePath.js133948123314592276 0
-139C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@swc\helpers\src\_array_without_holes.mjs133948123392171532 0
-130C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\update-browserslist-db\README.md133946566678292753 0
 166C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-posthtml\node_modules\@parcel\utils\lib\index.js133948123299712349 0
 153C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\package-manager\node_modules\chalk\package.json133948123184280391 0
 129C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\update-browserslist-db\utils.js133946566648504706 0
@@ -954,7 +960,7 @@
 168C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\optimizer-image\node_modules\@parcel\workers\lib\childState.js133948123198583874 0
 129C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\caniuse-lite\data\regions\OM.js133946566961327219 0
 174C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\parcel\node_modules\@parcel\utils\test\input\sourcemap\referenced-min.js.map133948123357494395 0
-165C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation.3c14d121.js.map133951703379380537 0
+165C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation.3c14d121.js.map133953443556699663 0
 185C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\node-resolver-core\node_modules\@parcel\watcher\src\watchman\WatchmanBackend.cc133948123224923674 0
 115C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\term-size\license133948123149440947 0
 146C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\parcel\node_modules\commander\typings\index.d.ts133948123222159918 0
@@ -1219,7 +1225,7 @@
 167C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\bin.js133948123118496603 0
 121C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\picocolors\package.json133946566620883124 0
 178C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\runtime-browser-hmr\node_modules\@parcel\utils\test\prettifyTime.test.js133948123310444771 0
-161C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation.3c14d121.js133951703378424880 0
+161C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation.3c14d121.js133953443555783626 0
 152C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\runtime-js\node_modules\color-convert\index.js133948123167443099 0
 144C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\parcel\node_modules\@parcel\workers\lib\bus.js133948123176242813 0
 134C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@swc\helpers\_\_ts_dispose_resources133948123382781543 1
@@ -1927,8 +1933,8 @@
 153C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\parcel\node_modules\@parcel\utils\src\getModuleParts.js133948123245689653 0
 135C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\runtime-js\node_modules\chalk133948123192281182 1
 145C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\parcel\node_modules\@parcel\logger\package.json133948123187857622 0
-129C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\caniuse-lite\data\regions\CK.js133946566869163566 0
 149C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\parcel\node_modules\@parcel\utils\src\getRootDir.js133948123246902540 0
+129C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\caniuse-lite\data\regions\CK.js133946566869163566 0
 145C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\core\test\fixtures\glob-like\[entry].js133948123231092367 0
 135C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@swc\helpers\_\_inherits\package.json133948123378132589 0
 133C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\lmdb\dependencies\lz4\lib\README.md133948123365799535 0
@@ -2067,6 +2073,7 @@
 143C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\parcel\node_modules\@parcel\fs\lib\types.d.ts133948123234080489 0
 134C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\caniuse-lite\data\features\path2d.js133946566962552532 0
 132C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\error-overlay\package.json133948123256331108 0
+107C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\store.eaed5fcc.js133955112864131063 0
 137C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\caniuse-lite\data\features\webcodecs.js133946566977812866 0
 159C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-postcss\node_modules\semver\bin\semver.js133948123275074783 0
 129C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\caniuse-lite\data\regions\CL.js133946566869443596 0
@@ -2113,7 +2120,6 @@
 169C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\cache\node_modules\@parcel\watcher\src\macos\FSEventsBackend.hh133948123250661991 0
 165C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\types\node_modules\@parcel\utils\src\generateCertificate.js133948123238440379 0
 125C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\ordered-binary\package.json133948123204164771 0
-118C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\ordered-binary\tests133948123188764227 1
 127C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\ordered-binary\dist\index.cjs133948123120738318 0
 134C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\caniuse-lite\dist\unpacker\region.js133946566965963814 0
 160C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\cache\node_modules\@parcel\workers\lib\web\WebChild.js133948123277846372 0
@@ -2891,8 +2897,8 @@
 155C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\core\test\fixtures\duplicate-targets\package.json133948123372997798 0
 129C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\caniuse-lite\data\regions\IQ.js133946566948387603 0
 178C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\runtime-browser-hmr\node_modules\@parcel\utils\test\PromiseQueue.test.js133948123313273904 0
-138C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\profiler\lib\SamplingProfiler.js133948123183223246 0
 157C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\codeframe\node_modules\color-convert\conversions.js133948123140380751 0
+138C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\profiler\lib\SamplingProfiler.js133948123183223246 0
 129C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\caniuse-lite\data\regions\IR.js133946566948557620 0
 129C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\core\lib\projectPath.js133948123361214017 0
 129C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\caniuse-lite\data\regions\IT.js133946566948757632 0
@@ -5050,7 +5056,6 @@
 165C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-posthtml\node_modules\@parcel\utils\src\svgo.js133948123336303153 0
 153C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\packager-css\node_modules\@parcel\utils\LICENSE133948123129581225 0
 170C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-posthtml\node_modules\@parcel\utils\src\TapStream.js133948123337395026 0
-158C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-posthtml\node_modules\@parcel\logger\lib133948123118894714 1
 158C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-posthtml\node_modules\@parcel\logger\src133948123141173885 1
 154C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-js\node_modules\ansi-styles\index.js133948123118944700 0
 159C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-posthtml\node_modules\@parcel\logger\test133948123173982268 1
@@ -5464,7 +5469,7 @@
 153C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\core\node_modules\@parcel\watcher\index.js.flow133948123234031981 0
 145C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-image\src\validateConfig.js133948123194474492 0
 154C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\packager-css\node_modules\@parcel\logger\LICENSE133948123099747922 0
-100C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\index.html133951703378414875 0
+100C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\index.html133955308790835822 0
 145C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-image\node_modules\has-flag133948123177781370 1
 164C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\transformer-image\node_modules\supports-color\package.json133948123162293222 0
 171C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\packager-svg\node_modules\@parcel\utils\src\relativeBundlePath.js133948123314410583 0
@@ -6212,8 +6217,6 @@
 146C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\packager-svg\node_modules\supports-color133948123178083568 1
 149C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\optimizer-image\node_modules\supports-color133948123178395219 1
 144C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\runtime-js\node_modules\@parcel\logger133948123185424720 1
-186C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\package-manager\node_modules\@parcel\workers\test\integration\workerfarm\ping.js133948123249559725 0
-147C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\runtime-js\node_modules\@parcel\utils\lib133948123345797717 1
 156C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\runtime-js\node_modules\@parcel\utils\package.json133948123342092873 0
 157C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\package-manager\node_modules\@parcel\logger\LICENSE133948123100082382 0
 147C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\runtime-js\node_modules\@parcel\utils\src133948123339421519 1
@@ -7866,7 +7869,6 @@
 123C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\optimizer-css\lib133948123118127777 1
 144C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\optimizer-css\node_modules\ansi-styles133948123178435229 1
 143C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\optimizer-css\node_modules\color-name133948123158774197 1
-155C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\codeframe\node_modules\color-convert\CHANGELOG.md133948123118425956 0
 141C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\optimizer-css\node_modules\has-flag133948123178415222 1
 147C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\optimizer-css\node_modules\supports-color133948123178490593 1
 158C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\optimizer-css\node_modules\supports-color\browser.js133948123119931166 0
@@ -8426,6 +8428,7 @@
 150C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\codeframe\node_modules\has-flag\package.json133948123098649489 0
 147C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\codeframe\node_modules\color-name\LICENSE133948123134610880 0
 152C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\codeframe\node_modules\color-name\package.json133948123098694473 0
+155C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\codeframe\node_modules\color-convert\CHANGELOG.md133948123118425956 0
 145C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\codeframe\node_modules\chalk\index.d.ts133948123194620137 0
 147C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\codeframe\node_modules\chalk\package.json133948123183479945 0
 141C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\@parcel\codeframe\node_modules\chalk\source133948123160482732 1
@@ -8790,14 +8793,18 @@
 129C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\node_modules\.bin\update-browserslist-db.cmd133946567086875007 0
 98C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\items.js133949144539316854 0
 102C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\items.js.map133949144540019261 0
-107C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\popup.16004a72.js133951703378434855 0
-111C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\popup.16004a72.js.map133951703379540566 0
-107C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\popup.1aac11fd.js133951703378434855 0
-111C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\popup.1aac11fd.js.map133951703379380537 0
+107C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\popup.16004a72.js133955308790835822 0
+111C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\popup.16004a72.js.map133955308791385221 0
+107C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\popup.1aac11fd.js133951775469094884 0
+111C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\popup.1aac11fd.js.map133951775469849903 0
 109C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\popup.4d61a314.html133948290826044846 0
-109C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\popup.5d855077.html133951703378434855 0
-100C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\popup.html133951703378444880 0
+109C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\popup.5d855077.html133952461809930713 0
+100C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\popup.html133955308790845793 0
+161C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation.149b1abc.js133955112864131063 0
+165C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation.149b1abc.js.map133955111721894356 0
+161C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation.eaed5fcc.js133955310997123869 0
+165C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation.eaed5fcc.js.map133955310997471794 0
 111C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\store.3c14d121.js.map133951601324295348 0
-100C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\store.html133951694853756663 0
+100C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\store.html133955306868472826 0
 110C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\team.2fffcbb1.js.map133951693553847242 0
-99C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\team.html133951703378424880 0
+99C:\Users\Emily\Downloads\ShoppingCartProject_Independent_JavaScript_DOM_Manipulation\dist\team.html133955308790825802 0

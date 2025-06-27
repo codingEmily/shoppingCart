@@ -1,5 +1,5 @@
 import items from './items.json';
-import popupHTML from './popup.html'
+// import popupHTML from './popup.html'
 
 const strItemTemplate = document.querySelector('.strItemTemplate');
 const containerOfStrItems = document.querySelector('.itemsContainer');
@@ -12,12 +12,12 @@ items.forEach(item => {
   clone.querySelector('.colorCategory').innerText = item.category;
   clone.querySelector('.colorLabel').innerText = item.name;
   clone.querySelector('.colorPriceAsCents').innerText = `$${(item.priceCents / 100).toFixed(2)}`;
+
   containerOfStrItems.appendChild(clone);
 });
 }
-
-////////////////// ///////////////////                   ///////////////
-fetch('/popup.html?version=' + Date.now()) // ⬅ you had a typo here, was `/version`
+//////////////////////////////////////                   ///////////////
+fetch('/popup.html?version=' + Date.now()) 
   .then(response => {
     if (response.ok) {
       return response.text(); 
@@ -41,10 +41,114 @@ fetch('/popup.html?version=' + Date.now()) // ⬅ you had a typo here, was `/ver
     if (cartCountIndicator && entireBtnAndPopup && cartCountIndicator.innerText === "0") {
       entireBtnAndPopup.style.display = "none";
     }
+
   })
   .catch(error => {
     console.error('Error loading external content:', error);
   });
+
+////////////////// ///////////////////                   ///////////////
+let shoppingCartArray = [];
+
+class ShoppingCartClass {
+  constructor(id, itemName, category, priceCents, imageColor, countInCart) {
+
+    this.id = id;
+    this.itemName = itemName;
+    this.category = category;
+    this.priceCents = priceCents;
+    this.imageColor = imageColor;
+    this.countInCart = countInCart
+  }
+} 
+
+function initializeShoppingCartArray() {
+  items.forEach(item => {
+  item.countInCart = 0 
+
+  let cartItem = new ShoppingCartClass (
+    `${item.id}`,
+    `${item.name}`,
+    `${item.category}`,
+    `${item.priceCents}`,
+    `${item.imageColor}`,
+    0,
+  )
+
+  shoppingCartArray.push(cartItem)
+})
+} initializeShoppingCartArray()
+
+function updateShoppingCartArray() {
+  for (let i = 0; i < shoppingCartArray.length; i++) {
+    items.forEach(item => {
+      if (item.id === (i + 1)) {
+        shoppingCartArray[i].countInCart = item.countInCart 
+        // console.log(shoppingCartArray[i].countInCart)
+      }
+    })
+  }
+} 
+// updateShoppingCartArray()
+
+
+const addItemBtn = document.querySelectorAll('.addBtnStoreItem')
+
+function addItem() {
+  addItemBtn.forEach(button => {
+      button.addEventListener("click", () => {
+        items.forEach(item => {
+          if (item.name == button.closest('.infoAndBtnStoreItem').querySelector('.colorLabel').innerText) {
+            item.countInCart++
+            // console.log(`${item.countInCart} ${item.name}`)
+            // console.log((shoppingCartArray[5].countInCart))
+          }
+        })
+
+    let popupEachItemTemplate = document.querySelector('.popupEachItemTemplate')
+    let specific = document.querySelector('.specific')
+
+    let filteredArray = loadShoppingCartItems(shoppingCartArray)
+    filteredArray.forEach(item => {
+            const clonedCartItem = popupEachItemTemplate.content.cloneNode(true)
+            clonedCartItem.querySelector('.color').innerText = item.name;
+            clonedCartItem.querySelector('.itemCount').innerText = `x ${item.countInCart}`
+            clonedCartItem.querySelector('.totalPriceOfItem').innerText = `$${(item.priceCents/100).toFixed(2) * item.countInCart}`
+            clonedCartItem.querySelector('.cartItemImg').src =`https://dummyimage.com/210x130/${item.imageColor}/${item.imageColor}`
+
+            if (
+              // !specific.contains(clonedCartItem) && 
+              clonedCartItem.querySelector('.totalPriceOfItem').innerText != "$0" 
+              ) {
+              specific.appendChild(clonedCartItem)
+            }
+            
+    })
+
+      })
+    })
+
+
+}  addItem()
+
+
+
+
+function loadShoppingCartItems(array) {
+  updateShoppingCartArray()
+// map or similar method would be better than loop for practice's sake
+let newArray = [];
+for (let i = 0; i < array.length; i++) {
+  if (!Number(array[i].countInCart) > 0) {
+    // console.log((array[i]))
+    newArray.push(array[i])
+  }
+}
+  return newArray
+} 
+
+
+//////////////
 
 
 
