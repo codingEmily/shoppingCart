@@ -1,10 +1,10 @@
 import items from '../items.json'
 let cartIcon,cartCountIndicator, popupContent, entireBtnAndPopup, cartTotalDisplay
 
-const strItemTemplate = document.querySelector('.strItemTemplate')
-const containerOfStrItems = document.querySelector('.itemsContainer')
-let cartTotalCounter = 0
-let totalCartCountForCartIndicator = 0;
+const storeItemTemplate = document.querySelector('.strItemTemplate')
+const containerOfStoreItems = document.querySelector('.itemsContainer')
+let cartTotal_PriceTracker = 0
+let cartTotal_IndicatorNum = 0;
 ///////////////////////////////////////////////////////////////////////////////////////////////
 /// ADDING countInCart PROPERTY TO THE JSON OBJECTS
 items.forEach(item => {
@@ -15,23 +15,29 @@ item.countInCart = 0
 const path = window.location.pathname;
 if (path.endsWith("store.html")) {
   items.forEach(item => {
-    const clone = strItemTemplate.content.cloneNode(true);
+    const clone = storeItemTemplate.content.cloneNode(true);
     clone.querySelector('.imgClass').src = `https://dummyimage.com/420x260/${item.imageColor}/${item.imageColor}`;
     clone.querySelector('.colorCategory').innerText = item.category;
     clone.querySelector('.colorLabel').innerText = item.name;
     clone.querySelector('.colorPriceAsCents').innerText = `$${(item.priceCents / 100).toFixed(2)}`;
     clone.querySelector('.addBtnStoreItem').id = `addItemBtn-${item.id}`
-    containerOfStrItems.appendChild(clone);
+    containerOfStoreItems.appendChild(clone);
   });
 }
 //////////////////////////////////////////////////////////
 function addNewItem(item) {
 item.countInCart++;
-totalCartCountForCartIndicator++;
-
-  if (cartCountIndicator && entireBtnAndPopup && (totalCartCountForCartIndicator == 0)) {
+cartTotal_IndicatorNum++;
+//// TESTING
+if (entireBtnAndPopup) {
+  console.log(entireBtnAndPopup)
+}
+//// 
+  if (cartCountIndicator && entireBtnAndPopup && (cartTotal_IndicatorNum
+   == 0)) {
       entireBtnAndPopup.style.display = "none";  
-    } else if (cartCountIndicator && entireBtnAndPopup && (totalCartCountForCartIndicator >= 1)) {
+    } else if (cartCountIndicator && entireBtnAndPopup && (cartTotal_IndicatorNum
+     >= 1)) {
       entireBtnAndPopup.style.display = "block"
     }
 
@@ -50,17 +56,17 @@ totalCartCountForCartIndicator++;
   eachCartItem.querySelector('.cartItemImg').src =`https://dummyimage.com/210x130/${item.imageColor}/${item.imageColor}`
 
   popupDisplayContainer.appendChild(eachCartItem)
-  const cartTotalDisplay = document.querySelector('.cartTotal')
+  const cartTotalDisplay = document.querySelector('#cartTotal')
 
-  cartTotalCounter += price
-  cartTotalDisplay.innerText = `$${cartTotalCounter}`
+  cartTotal_PriceTracker += price
+  cartTotalDisplay.innerText = `$${cartTotal_PriceTracker}`
 
 }
 
 function addToExistingItem(item) {
   item.countInCart++;
   const popupDisplayContainer = document.querySelector('.displayContainer')
-  const cartTotalDisplay = document.querySelector('.cartTotal')
+  const cartTotalDisplay = document.querySelector('#cartTotal')
 
   if (popupDisplayContainer.querySelector(`#cartItem-${item.id}`)) {
     let selectedItem = popupDisplayContainer.querySelector(`#cartItem-${item.id}`)
@@ -69,8 +75,8 @@ function addToExistingItem(item) {
     selectedItem.querySelector('.itemCount').innerText = `x ${item.countInCart}`
     selectedItem.querySelector('.totalPriceOfItem').innerText = `$${price}`;
 
-    cartTotalCounter += (item.priceCents/100)
-    cartTotalDisplay.innerText = `$${cartTotalCounter}`
+    cartTotal_PriceTracker += (item.priceCents/100)
+    cartTotalDisplay.innerText = `$${cartTotal_PriceTracker}`
 
 
   } else {
@@ -101,9 +107,11 @@ fetch('/popup.html?version=' + Date.now())
         popupContent.classList.toggle('invisible');
       });
     }
-    if (cartCountIndicator && entireBtnAndPopup && (totalCartCountForCartIndicator == 0)) {
+    if (cartCountIndicator && entireBtnAndPopup && (cartTotal_IndicatorNum
+     == 0)) {
       entireBtnAndPopup.style.display = "none";  
-    } else if (cartCountIndicator && entireBtnAndPopup && (totalCartCountForCartIndicator >= 1)) {
+    } else if (cartCountIndicator && entireBtnAndPopup && (cartTotal_IndicatorNum
+     >= 1)) {
       entireBtnAndPopup.style.display = "block"
     }
 
@@ -114,14 +122,15 @@ fetch('/popup.html?version=' + Date.now())
 
 
 if (path.endsWith("store.html")) {
-  containerOfStrItems.addEventListener("click", (event) => {
+  containerOfStoreItems.addEventListener("click", (event) => {
     if (event.target.matches('.addBtnStoreItem')) {
 
       items.forEach(item => {
         if (event.target.id == (`addItemBtn-${item.id}`)) {
           if (item.countInCart === 0) { // add item before counting up
           addNewItem(item)
-          cartCountIndicator.innerText = totalCartCountForCartIndicator
+          cartCountIndicator.innerText = cartTotal_IndicatorNum
+        
           } else if (item.countInCart >= 1) {
             addToExistingItem(item)
           }
@@ -141,7 +150,7 @@ if (path.endsWith("store.html")) {
 
 
 //// ADDING ITEMS TO THE SHOPPING CART
-  /// create a button click event listener for each addNewItemBtn, but set event listener on 'containerOfStrItems' to avoid multiple event listeners AND because the container always exists, but the store-generated btns don't exist at first
+  /// create a button click event listener for each addNewItemBtn, but set event listener on 'containerOfStoreItems' to avoid multiple event listeners AND because the container always exists, but the store-generated btns don't exist at first
 
   /// on the event listener, if strBtn is clicked, create a cloned node FOR THE CORRESPONDING JSON OBJECT, and then add it to the shoppingCart-Popup html, 
   // 
