@@ -1,4 +1,4 @@
-import items from '../items.json';
+import items from '../../items.json';
 // import popupHTML from './popup.html'
 
 const strItemTemplate = document.querySelector('.strItemTemplate');

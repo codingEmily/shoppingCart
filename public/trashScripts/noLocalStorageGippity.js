@@ -68,7 +68,7 @@
 // }
 
 //////////////////////////////////////////////////////////////////////////////////////////////
-import items from '../items.json'
+import items from '../../items.json'
 
 const strItemTemplate = document.querySelector('.strItemTemplate')
 const containerOfStrItems = document.querySelector('.itemsContainer')
